@@ -2,7 +2,7 @@
 
 ### XXE (XML eXternal Entity) Injection
 
-> XML 데이터란 Extensible Markup Language(확장 가능한 마크업 언어)로, 데이터를 구조화하고 저장하며, 기계와 사람이 모두 읽을 수 있도록 설계된 반정형 데이터 형식이다. HTML과 유사하게 태그를 활용하지만, XML은 데이터 의미와 구조를 정의한다. XML 문서 예시는 다음과 같다. (출처: https://play-with.tistory.com/288)
+XML 데이터란 Extensible Markup Language(확장 가능한 마크업 언어)로, 데이터를 구조화하고 저장하며, 기계와 사람이 모두 읽을 수 있도록 설계된 반정형 데이터 형식이다. HTML과 유사하게 태그를 활용하지만, XML은 데이터 의미와 구조를 정의한다. XML 문서 예시는 다음과 같다. (출처: https://play-with.tistory.com/288)
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <book category="fantasy">
