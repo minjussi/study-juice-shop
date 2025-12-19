@@ -19,11 +19,12 @@ Reflected XSS는 서버 측 취약점으로 악성 스크립트가 반사되는 
 
 ### 문제 풀이
 
-<img width="2863" height="1348" alt="image" src="https://github.com/user-attachments/assets/cde23300-a516-4a1a-bc0c-eeb831c163ff" />
-
-<img width="2841" height="1304" alt="image" src="https://github.com/user-attachments/assets/75929614-5691-496a-a1cd-d4a91b30cb1b" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cde23300-a516-4a1a-bc0c-eeb831c163ff" width="45%" style="margin-right:10px;"/>
+  <img src="https://github.com/user-attachments/assets/75929614-5691-496a-a1cd-d4a91b30cb1b" width="45%"/>
+</p>
 
 - Reflected XSS는 서버가 내 요청(파라미터)을 받아서 응답(반사)해 줄 때 발생하는 취약점이다.
-- 
+- 따라서 파라미터(?id = 혹은 ?q= )에 <iframe src="javascript:alert(`xss`)">을 주어 서버가 악성 url을 실행하게 한다.
 
 ### Mitigation Strategy
