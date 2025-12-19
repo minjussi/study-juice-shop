@@ -27,4 +27,6 @@ Reflected XSS는 서버 측 취약점으로 악성 스크립트가 반사되는 
 - Reflected XSS는 서버가 내 요청(파라미터)을 받아서 응답(반사)해 줄 때 발생하는 취약점이다.
 - 따라서 파라미터(?id = 혹은 ?q= )에 <iframe src="javascript:alert(`xss`)">을 주어 서버가 악성 url을 실행하게 한다.
 
-### Mitigation Strategy
+### Mitigation Strategy (OWASP-Cross Site Scripting Prevention Cheat Sheet)
+
+- 
