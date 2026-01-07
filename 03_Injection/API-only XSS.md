@@ -1,8 +1,4 @@
-# API-only XSS
-
-### API (Application Programming Interface)
-
-
+# [⭐⭐⭐] API-only XSS
 
 ### XSS attack via an API
 
@@ -14,11 +10,11 @@
 
   1. 공격자가 API를 통해서 악성 스크립트를 전달
   2. Stored XSS인 경우에는 악성 스크립트가 영구적으로 서버에 저장되는 반면, Reflected XSS인 경우에는 악성 스크립트에 대한 응답이 바로 나옴
-  3. 
+  3.  
 
 ### XMLHttpRequest(XHR) API
 
-XMLHttpRequest는 javascript에서 기본으로 제공하는 
+XMLHttpRequest는 javascript에서 기본으로 제공하는 객체로, 웹페이지 전체를 새로고침 하지 않고도 서버와 데이터를 교환할 수 있게 해준다. 
 
 ### 문제 풀이
 
