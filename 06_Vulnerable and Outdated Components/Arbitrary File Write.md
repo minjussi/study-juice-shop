@@ -1,12 +1,10 @@
-# Arbitrary File Write
+# [⭐⭐⭐⭐⭐⭐] Arbitrary File Write
 
-### Zip Slip
+### 📌 Zip Slip
 
-- zip slip:
+- 압축 해제 과정에서 발생하는 path traversal 취약점으로,  
 
-- 
-
-### 문제 풀이
+### 🔓 문제 풀이
 
 <img width="1145" height="513" alt="image" src="https://github.com/user-attachments/assets/fd61e1ee-033b-45dc-b52f-13eb9a647ac2" />
 
@@ -18,4 +16,4 @@
 
 (사진 첨부)
 
-### Mitigation Strategy
+### 🔐 Mitigation Strategy
