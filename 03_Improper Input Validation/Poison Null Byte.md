@@ -1,4 +1,4 @@
-# Poison Null Byte
+# [4-star] Poison Null Byte
 
 ### Null Byte Injection
 
