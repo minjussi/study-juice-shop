@@ -1,6 +1,6 @@
-# XXE Data Access
+# [⭐⭐⭐] XXE Data Access
 
-### XXE (XML eXternal Entity) Injection
+### 📌 XXE (XML eXternal Entity) Injection
 
 XML 데이터란 Extensible Markup Language(확장 가능한 마크업 언어)로, 데이터를 구조화하고 저장하며, 기계와 사람이 모두 읽을 수 있도록 설계된 반정형 데이터 형식이다. HTML과 유사하게 태그를 활용하지만, XML은 데이터 의미와 구조를 정의한다. XML 문서 예시는 다음과 같다. (출처: https://play-with.tistory.com/288)
 ```XML
@@ -14,7 +14,7 @@ XML 데이터란 Extensible Markup Language(확장 가능한 마크업 언어)�
 
 - XML 데이터를 처리할 때 (= parsing) 발생하는 공격으로 주로 공격자가 서버 시스템 파일을 읽을 수 있게 되거나 백엔드 시스템과 상호작용할 수 있게 되는 취약점이다.
 
-### XXE 취약점 발생 & XXE 공격 예시 (출처: PortSwigger)
+### 📌 XXE 취약점 발생 & XXE 공격 예시 (출처: PortSwigger)
 
 > 브라우저(client)와 서버(server) 간에 데이터를 주고 받을 때 XML 형식을 사용하는 경우가 있는데, 이때 주로 표준 라이브러리나 API를 사용해 서버 단에 있는 XML 데이터를 처리한다. XML은 잠재적인 위험 요소들이 존재하는데, 대부분의 처리 도구들이 이 요소들을 다루고 있기 때문에 취약점이 발생한다. (cf) DTD(Document Type Definition) 는 XML 문서의 구조, 요소, 속성 등의 규칙을 정의하는 문법이다. )
 
@@ -54,7 +54,7 @@ Content-Length: 52
 ```
 
 
-### 문제 풀이
+### 🔓 문제 풀이
 
 1. XML 파일이 업로드 되는 곳을 찾는다.
 <p align="center">
@@ -68,7 +68,7 @@ Content-Length: 52
 <img src="https://github.com/user-attachments/assets/74132e8b-d3c2-4c1f-9306-15e8b3339c9d"  width="60%"/>
 
 
-### Mitigation Strategy
+### 🔐 Mitigation Strategy
 
 - 대부분의 XXE Injection은 XML을 파싱하는 라이브러리가 필요하지 않은 잠재적으로 위험한 XML 기능을 지원하기 때문이다. 따라서 잠재적으로 위험한 XML 기능을 지원하지 않으면 문제가 가장 쉽게 해결된다. 
 
