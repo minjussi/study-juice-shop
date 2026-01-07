@@ -1,4 +1,4 @@
-# Reflected XSS
+# [⭐⭐] Reflected XSS
 
 ### Reflected XSS
 
