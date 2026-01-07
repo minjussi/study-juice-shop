@@ -13,7 +13,7 @@
 따라서 압축 파일 내의 파일명을 ../../etc/pwd처럼 path traversal이 가능하게 만들면, 경로를 조작해 임의의 파일을 업로드할 수 있게 된다. 
 
 1. legal.md라는 파일을 새로 만든다.
-2. 악성 zip 파일을 만들 python 스크립트를 작성한다.
+2. 악성 zip 파일을 만들 python 스크립트를 작성한다. 이때 legal.md 파일명을 ../../ftp/legal.md로 만들어 path traversal이 가능하게 만든다. 
 ```python
 import zipfile
 
@@ -26,3 +26,6 @@ with zipfile.ZipFile('exploit.zip', 'w') as z:
 
 
 ### 🔐 Mitigation Strategy
+
+1. 파일명 유효성 검사
+2. 
