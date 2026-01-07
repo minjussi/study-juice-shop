@@ -1,4 +1,4 @@
-# Allowlist Bypass
+# [⭐⭐⭐⭐] Allowlist Bypass
 
 ### WhiteList
 
