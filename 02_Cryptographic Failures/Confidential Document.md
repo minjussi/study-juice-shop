@@ -1,4 +1,4 @@
-# Confidential Document
+# [⭐] Confidential Document
 
 ### 📌 Confidential Document
 > confidential document는 기밀 문서로 허가 없이는 접근할 수 없는 개인적이고 민감한 정보를 포함하고 있는 문서이다. 
