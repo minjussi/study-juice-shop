@@ -18,7 +18,7 @@ XMLHttpRequest는 javascript에서 기본으로 제공하는 객체로, 웹페�
 
 ### 문제 풀이
 
-이 문제에서는 fronted application을 사용하지 않고 해결하라고 했기 때문에 reflected가 아니라 stored xss 공격을 수행해야 한다.
+이 문제에서는 fronted application을 사용하지 않고 해결하라고 했기 때문에 입력창이 아닌 API 요청 도구를 사용해야 한다. 
 
 
 
