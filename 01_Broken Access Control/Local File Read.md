@@ -13,7 +13,7 @@
 
 - Request Data Erasure 기능은 url에 입력된 파라미터를 그대로 받아 화면을 렌더링하는 구조를 가지고 있다.
 
-<img width="1500" height="1278" alt="image" src="https://github.com/user-attachments/assets/15186937-4846-4998-b002-e6f504fe1837" />
+<img width="1533" height="1281" alt="image" src="https://github.com/user-attachments/assets/0262f6a8-f18a-4e23-a02c-e6bba504ca7d" />
 
 
 - 만약 서버 내의 코드가 다음과 같이 이뤄져 있다면 req.query가 그대로 렌더링 옵션으로 들어가게 된다. 
@@ -21,7 +21,10 @@
 app
 ```
 - layout 속성을 주입하여 템플릿 레이아웃을 원하는 파일로 지정할 수 있게 되어 해당 파일이 유출된다.
-<img width="1103" height="319" alt="image" src="https://github.com/user-attachments/assets/05f784a3-96c1-4c1a-a883-69251e1df662" />
+
+<img width="1178" height="150" alt="image" src="https://github.com/user-attachments/assets/78763ad9-7d0e-4ad3-8f95-59a3b6db2c02" />
+
+
 
 
 
