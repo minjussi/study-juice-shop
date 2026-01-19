@@ -17,7 +17,7 @@
 - 따라서 패킷을 중간에 가로채 수량을 음수로 바꿔준다. 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f1b0c945-7840-4576-8f48-6497c88c544e" width="45%" style="margin-right:10px;"/>
+  <img src="https://github.com/user-attachments/assets/f1b0c945-7840-4576-8f48-6497c88c544e" width="45%" style="margin-right:20px;"/>
   <img src="https://github.com/user-attachments/assets/0240f6fe-6058-4179-b1f8-b6f4b1bae789" width="45%"/>
 </p>
 
@@ -31,3 +31,7 @@
 - 결제 금액이 음수로 뜨면서 문제가 해결된 것을 확인할 수 있다. 
 
 ### 🔐 Mitigation Strategy
+
+- 서버 측 입력값 범위 검증: 프론트에서만 입력값을 제한하는 것이 아니라 무조건 서버 측에서도 입력값 검증을 수행하여야 한다. 잘못된 요청이 들어올 경우, 서버는 요청을 즉시 차단하고 400 에러를 반환하도록 설계한다. 
+- 안전한 설계: 클라이언트가 보내준 값을 그대로 사용하는 것이 아니라, 서버 내에서만 연산이 이뤄지도록 설계하여 데이터 변조 가능성을 차단한다. 
+- 비즈니스 로직 테스트 강화: 단순한 기능 테스트에 더해 발생할 수 있는 가능성 (음수를 넣는 경우, 0인 경우)을 모두 고려하여 허점을 없앤다. 
