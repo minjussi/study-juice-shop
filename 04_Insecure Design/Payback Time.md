@@ -16,10 +16,9 @@
 - 물건을 장바구니에 추가하고, 장바구니 탭으로 들어가면 수량을 조절할 수 있는 것을 확인할 수 있다. 그러나 프론트에서는 1보다 작은 값으로 내릴 수 없게 되어 있다.
 - 따라서 패킷을 중간에 가로채 수량을 음수로 바꿔준다. 
 
-<p>
+<p align="center">
   <img src="https://github.com/user-attachments/assets/f1b0c945-7840-4576-8f48-6497c88c544e" width="45%" style="margin-right:10px;"/>
   <img src="https://github.com/user-attachments/assets/0240f6fe-6058-4179-b1f8-b6f4b1bae789" width="45%"/>
-
 </p>
 
 - PUT 요청을 보내는 탭에서 수량(quantity)을 지정하는 부분이 있는 것을 확인할 수 있다. 이 부분에서 수량을 음수(-100)로 설정하여 제품 수량을 음수로 만든다.
