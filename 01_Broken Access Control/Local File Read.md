@@ -21,6 +21,8 @@ app.get('/', (req, res) => {
 });
 ```
 - layout 속성을 주입하여 템플릿 레이아웃을 원하는 파일로 지정할 수 있게 되어 해당 파일이 유출된다.
+  - layout 옵션에 `../package.json`을 입력해 package.json 파일 안에 있는 내용이 레이아웃으로 지정되게 한다.
+  - dataerasure 경로로 들어가면 package.json에 있는 내용이 뜨는 것을 확인할 수 있다.  
 <p>
   <img src="https://github.com/user-attachments/assets/912d1240-96a3-4690-8bf0-0aac25534ae3" width="45%" style="margin-right:10px;"/>
   <img src="https://github.com/user-attachments/assets/5e71af97-94dd-4e69-9d21-7f532980f237" width="45%"/>
