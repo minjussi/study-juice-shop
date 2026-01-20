@@ -26,7 +26,7 @@
 - 취약한 라이브러리와 그 버전을 찾는 문제이다. (앞선 문제에서 얻은 백업 파일을 활용하여 사용된 라이브러리를 모두 확인해 취약한 라이브러리를 찾는 문제이다.)
 - 찾은 취약 라이브러리를 complain 탭에 입력하면 문제를 해결할 수 있다.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1ea0a441-e403-4707-a586-ae494f1369c7" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/1ea0a441-e403-4707-a586-ae494f1369c7" width="60%"/>
 </p>
 
 ### 🔐 Mitigation Strategy 
